@@ -1,0 +1,531 @@
+/* main Body  */
+body {
+  /* background-color: aliceblue; */
+  background-color: #000000;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+body #main-body {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8)), url("https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/fbb54774-ca17-4208-a995-db44bffe4163/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  margin: -8px;
+  height: 734px;
+  border-bottom: 10px solid #302f2f;
+
+}
+
+#story-card {
+  margin: 0 auto;
+  max-width: 950px;
+  padding: 41px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+
+}
+
+#story-card>h1 {
+  color: white;
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+#story-card>h2 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.form>h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  margin-top: -50px;
+}
+
+/* Navbar using Flex */
+.flex-container {
+  display: flex;
+  align-items: stretch;
+
+}
+
+.flex-container #option-color {
+  color: #ffffff;
+  border: 1px solid white;
+  margin-right: 41px;
+}
+
+.flex-container .lastpart select {
+  background: #00000096;
+  width: 93px;
+  height: 37px;
+  border-radius: 4px;
+  margin-left: -6px;
+  padding-left: 6px;
+}
+
+.flex-container>div {
+
+
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+
+}
+
+/* logo position */
+div>img {
+  height: 4.81rem;
+  width: 12.47rem;
+  margin-left: 50px;
+}
+
+/* sign in button */
+
+div>button {
+  background-color: #e50914;
+  height: 36px;
+  width: 94px;
+  border: 0;
+  border-radius: 3px;
+}
+
+div>button>a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+
+}
+
+
+/* email button */
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  height: 30px;
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  border: 0;
+  width: 540px;
+  font-size: 16px;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  /* border: 1px solid #ddd; */
+  border: 0;
+  color: white;
+  cursor: pointer;
+  height: 72px;
+  width: 208px;
+  margin-left: -10px;
+  font-size: 26px;
+}
+
+.form-inline button:hover {
+  background-color: rgb(247, 38, 23);
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+/* Section two  */
+.card-0,
+.card-1,
+.card-2,
+.card-3 {
+  border-top: 8px rgb(69, 69, 69) solid;
+  padding: 50px;
+}
+
+.section-two {
+  background-color: rgb(0, 0, 0);
+  margin-top: 8px;
+
+}
+
+.card1 {
+  display: inline-grid;
+  position: relative;
+  justify-items: center;
+  /* align-content: center; */
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+  grid-template-columns: 50% 40%;
+  border-bottom: 10px solid #302f2f;
+}
+
+.card1 img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  width: 80%;
+  height: 346px;
+  z-index: 1;
+}
+
+.card1 video {
+  position: relative;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  width: 124%;
+  height: 53%;
+  /* margin-bottom: 2px; */
+  margin: -31px -78px -15px -30px;
+
+
+}
+
+.descrpyion1 {
+  padding-left: 80px;
+}
+
+.section-two h1 {
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+  margin-left: 119px;
+}
+
+.section-two h3 {
+
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-left: 119px;
+}
+
+
+/* Card 2 Design */
+.card2 {
+  display: inline-grid;
+  position: relative;
+  justify-items: center;
+  /* align-content: center; */
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+  grid-template-columns: 50% 40%;
+  border-bottom: 10px solid #302f2f;
+
+}
+
+
+.card2 img {
+  height: 384px;
+  width: 529px;
+  margin-left: 137px;
+  margin-top: 45px;
+}
+
+.card2multimage {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  width: 20%;
+  height: 118px;
+  background-color: rgb(0, 0, 0);
+  /* background: border-box; */
+  /* margin-block: 62px; */
+  padding: -1px;
+  /* opacity: 1; */
+  margin-right: 575px;
+  /* z-index: 1; */
+  margin-top: 246px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+#card2image2 {
+  height: 100px;
+  width: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+
+.card2multimage h4 {
+  color: #fff;
+  margin-left: 6px;
+  margin-top: -3px;
+}
+
+.card2multimage p {
+  color: rgb(60, 47, 239);
+  margin: 37px 0 9px -153px;
+}
+
+#animation {
+  height: 50px;
+  width: 50px;
+  margin-left: 32px;
+  margin-right: -38px;
+  margin-top: 5px;
+}
+
+.description2 h1 {
+  font-size: 42px;
+}
+
+.description2 h3 {
+  font-size: 23px;
+}
+
+/* Card 2 Design */
+
+.card3 {
+  display: inline-grid;
+  position: relative;
+  justify-items: center;
+  /* align-content: center; */
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+  grid-template-columns: 50% 40%;
+  border-bottom: 10px solid #302f2f;
+}
+
+.card3 img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  width: 100%;
+  height: 389px;
+  z-index: 1;
+}
+
+.card3 video {
+  position: relative;
+  grid-column: 2/2;
+  grid-row: 1/2;
+  width: 124%;
+  height: 53%;
+  /* margin-bottom: 2px; */
+  margin: -133px -78px -15px -30px;
+
+
+}
+
+.description3 {
+  margin-left: 35px;
+}
+
+/* Card-4 Design */
+
+.card4 {
+  display: inline-grid;
+  position: relative;
+  justify-items: center;
+  /* align-content: center; */
+  align-items: center;
+  text-align: left;
+  padding: 25px 45px 50px;
+  grid-template-columns: 50% 40%;
+  border-bottom: 10px solid #302f2f;
+
+}
+
+
+.card4 img {
+  height: 384px;
+  width: 529px;
+  margin-left: 137px;
+  margin-top: 45px;
+}
+
+.description4 {
+  margin-left: -73px;
+}
+
+.description4 h1 {
+  font-size: 53px;
+}
+
+.description4 h3 {
+  font-size: 26px;
+}
+
+
+
+/* Section-3 Design */
+.section3 {
+  background: black;
+  padding-top: 70px;
+  border-bottom: 10px solid #302f2f;
+
+}
+
+.section3 h1 {
+  text-align: center;
+  font-size: 46px;
+}
+
+summary {
+  list-style: none;
+}
+
+/* FAQ */
+.faq {
+  text-align: center;
+}
+
+summary {
+  color: white;
+  font-size: 28px;
+}
+
+.questions {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 65%;
+  align-items: center;
+  text-align: center;
+  /* background-color: #2d3b3b */
+}
+
+.container {
+  margin-left: 24%;
+}
+
+summary {
+  display: flex;
+  /* align-content: center; */
+  /* flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end; */
+  /* border-bottom: 5px solid white; */
+  border-bottom: 10px solid #000000;
+  background: #303030;
+  font-family: sans-serif;
+  width: 736px;
+  height: 54px;
+  /* text-align: center; */
+  padding-top: 7px;
+  padding-left: 30px;
+  /* margin-top: -2px;*/
+}
+
+.questions p {
+  width: inherit;
+  height: inherit;
+
+  font-family: sans-serif;
+
+  color: #fff;
+  background: #303030;
+  margin-top: -7px;
+  margin-bottom: 9px;
+  margin-left: inherit;
+  padding-left: 17px;
+}
+
+details {
+  font-size: 23px;
+  text-align: initial;
+
+}
+
+.section3 .form>h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.lastsection {
+  margin-bottom: 80px;
+}
+
+
+
+/* Footer Design */
+.footer,
+.footer a {
+  color: #999999;
+  font-size: 0.9rem;
+  text-decoration: none;
+
+}
+
+.footer a:hover {
+
+  text-decoration: underline;
+}
+
+.footer li {
+  line-height: 2.4;
+}
+
+.footer p {
+  margin-left: 40px;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.footer {
+  max-width: 70%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+#option-color {
+  color: #999999
+}
+
+.lastpart select {
+  background: #000000;
+  width: 110px;
+  height: 53px;
+  margin-left: 40px;
+  padding-left: 6px;
+  border-radius: 2px;
+}
+
+
+#footer-last-part{
+
+  margin-left: 40px;
+  margin-top: 25px;
+}
